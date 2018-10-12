@@ -25,6 +25,7 @@
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
             tools:context=".MapsActivity"
 
             />
@@ -33,6 +34,7 @@
             android:id="@+id/book_now"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:layout_marginBottom="@+id/map"
             android:layout_gravity="bottom"
             android:text="BOOK NOW"
             android:textAllCaps="true"

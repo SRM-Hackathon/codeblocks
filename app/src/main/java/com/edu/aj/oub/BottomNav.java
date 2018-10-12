@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class BottomNav extends AppCompatActivity {
 
-    private TextView mTextMessage;
+    //private TextView mTextMessage;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -25,10 +25,10 @@ public class BottomNav extends AppCompatActivity {
 
                     return true;
                 case R.id.nav_bike:
-                    mTextMessage.setText("Bike Taxi");
+      //              mTextMessage.setText("Bike Taxi");
                     return true;
                 case R.id.nav_cab:
-                    mTextMessage.setText("Cab");
+        //            mTextMessage.setText("Cab");
                     return true;
             }
             return false;
@@ -40,7 +40,7 @@ public class BottomNav extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_nav);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
+        //mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
