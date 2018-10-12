@@ -1,5 +1,6 @@
 package com.edu.aj.oub;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,20 +81,25 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        if (id == R.id.nav_park)
+        {
+            Intent i = new Intent(MainActivity.this, MapsActivity.class);
+            startActivity(i);
+        }
+        else if (id == R.id.nav_bike)
+        {
+            Intent i = new Intent(MainActivity.this, Bike.class);
+            startActivity(i);
+        }
+        else if (id == R.id.nav_cab)
+        {
+            Intent i = new Intent(MainActivity.this, Cab.class);
+            startActivity(i);
+        }
+        else if (id == R.id.nav_share)
+        {
 
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
