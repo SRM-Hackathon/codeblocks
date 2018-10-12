@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "487440338743",
+    "firebase_url": "https://metafora-dded4.firebaseio.com",
+    "project_id": "metafora-dded4",
+    "storage_bucket": "metafora-dded4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487440338743:android:7ce5b660c1c13009",
+        "android_client_info": {
+          "package_name": "com.edu.aj.oub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487440338743-465re8v9cdo6ufbbpv6fhvg2jain66jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_NVuaXUbvZTPZVUlyH6tAmj1nZfUE6Pw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
