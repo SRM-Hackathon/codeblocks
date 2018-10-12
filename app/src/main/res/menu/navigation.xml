@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/nav_park"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="Parking" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/nav_bike"
         android:icon="@drawable/outline_directions_bike_black_24"
         android:title="Bike Taxi" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/nav_cab"
         android:icon="@drawable/outline_local_taxi_black_24"
         android:title="Cab" />
 
