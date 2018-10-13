@@ -29,7 +29,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.text.BreakIterator;
 
-public abstract class MapsActivity extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener {
 
     private GoogleMap mMap;
     private LocationManager locationMangaer = null;
@@ -139,4 +139,9 @@ public abstract class MapsActivity extends FragmentActivity implements OnMapRead
             return false;
         }
     }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+
     }
+}
