@@ -29,14 +29,14 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.text.BreakIterator;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener {
+public abstract class MapsActivity extends FragmentActivity implements OnMapReadyCallback, View.OnClickListener {
 
     private GoogleMap mMap;
     private LocationManager locationMangaer = null;
     private LocationListener locationListener = null;
     private Button Booking;
     private Button btnGetLocation = null;
-    private static final String TAG = "Debug";
+    public static final String TAG = "Debug";
     private Boolean flag = false;
 
     @SuppressLint("WrongViewCast")
